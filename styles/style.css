@@ -1,0 +1,103 @@
+* {
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
+
+body {
+    background: white;
+}
+
+.pult,
+.pult2 {
+    max-width: 70px;
+    height: 320px;    
+    border: solid 2px darkgray;
+    box-shadow: 2px 5px 5px 2px rgba(0, 0, 0, 0.3);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    padding: 10px;
+    background: white;
+}
+
+.pult {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+}
+
+.pult2 {
+    position: absolute;
+    top: 400px;
+    left: 20px;
+}
+
+.tik1, 
+.tik2,
+.tik3,
+.tik4,
+.tik5,
+.tik21,
+.tik22,
+.tik23,
+.tik24,
+.tik25 {
+    width: 50px;
+    height: 50px;
+    border: solid 2px darkgray;
+    border-radius: 5px;
+}
+
+.tik1,
+.tik21 {
+    background: violet;
+}
+
+.tik2,
+.tik22 {
+    background: rgb(241, 235, 120);
+}
+
+.tik3,
+.tik23 {
+    background: mediumaquamarine;
+}
+
+.tik4,
+.tik24 {
+    background: grey;
+}
+
+.tik5,
+.tik25 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: white;
+}
+
+.x span {
+    color: grey;
+}
+
+.items {
+    max-width: 950px;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 30px;
+    position: absolute;
+    top: 150px;
+    left: 250px;
+}
+
+.quadrat {
+    max-width: 200px;
+    width: 100%;
+    height: 200px;
+    border: solid 2px darkgray;
+    border-radius: 10px;
+}
